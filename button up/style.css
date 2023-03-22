@@ -1,0 +1,49 @@
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+#searchPart {
+    border-radius: 15px;
+    border: 2px solid turquoise;
+    color: rgb(25, 166, 152);
+    background-color: white;
+    border: 5px 5px;
+    width: 140px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 5px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#plusPart {
+    border: 2px solid turquoise;
+    background-color: turquoise;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px;
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#createAccountPart {
+    border: 3px solid black;
+    background-color: rgba(19, 118, 216, 0.898);
+    box-shadow: 3px 3px black;
+    color: white;
+    font: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 35px;
+}

@@ -1,0 +1,72 @@
+html {
+    background-image: linear-gradient(to right, #3E78C1, #C1873E);
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: white;
+    text-shadow: 1px 1px orangered;
+    text-decoration: none;
+
+}
+
+#mainPicture {
+    image-rendering: -moz-crisp-edges;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px orangered;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+
+#personalLinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 20px;
+}
+
+#topDiv {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+#technologies {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+#currentProjects {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:15px
+}
+
+#id {
+    border-color: aliceblue;
+    display: flex;
+    justify-content: first baseline;
+}
+
+#mainPicture {
+    border-radius: 50px;
+    
+}
+
+#contactForm {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}

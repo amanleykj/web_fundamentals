@@ -1,0 +1,28 @@
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    color: aqua;
+    background-color: black;
+}
+
+#headerMy {
+    color: white;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+    color: white;
+    font-style: italic;
+}
+
+h3 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightskyblue;
+    color: black;
+}
+
+a:hover, a:visited, a:link, a:active {
+    color: black;
+}

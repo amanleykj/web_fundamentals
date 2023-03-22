@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Pet Shelter</title>
+</head>
+
+<body>
+    <div id="wholehead">
+        <div id="tophead">
+            <img src="assets/heart-light.png " alt="heart logo">
+            <h1>Pet Shelter</h1>
+            <h2>Find a Pet</h2>
+            <h2>About</h2>
+            <button id="donate_button" onclick="disappear(this)">Donate</button>
+        </div>
+        <div id="bottomhead">
+            <div id="bottom_left">
+                <label>I'm looking for a...</label>
+                <img src="assets/paw-light.png" alt="paw icon">
+                <select name="animals" id="animal_select" value="Any Pet">
+                    <option value="Any Pet">Any Pet</option>
+                    <option value="Cat">Cat</option>
+                    <option value="Dog">Dog</option>
+                </select>
+            </div>
+            <div id="bottom_middle">
+                <label>in or near...</label>
+                <img src="assets/pin-light.png" alt="map pin logo">
+                <form>
+                    <input type="text" placeholder="City or Zip Code">
+                </form>
+            </div>
+            <button>Find your new best friend!</button>
+        </div>
+    </div>
+    <div id="main">
+        <div class="animal_block">
+            <img src="assets/pepper.jpg" alt="Pepper the cat">
+            <h2>Pepper</h2>
+            <p>Pepper is a slightly shy grey tabby, but she really loves showing her human affection.</p>
+            <p>3 petting(s)</p>
+            <button>Pet Pepper</button>
+        </div>
+        <div class="animal_block">
+            <img src="assets/bruce.jpg" alt="Bruce the dog">
+            <h2>Bruce</h2>
+            <p>Bruce is a loyal companion. He likes long walks and cold weather.</p>
+            <p>5 petting(s)</p>
+            <button>Pet Bruce</button>
+        </div>
+        <div class="animal_block">
+            <img src="assets/oscar.jpg" alt="Oscar the dog">
+            <h2>Oscar</h2>
+            <p>Oscar is bright, energetic, and friendly. He is looking for a good home.</p>
+            <p>8 petting(s)</p>
+            <button>Pet Oscar</button>
+        </div>
+    </div>
+
+</body>
+</html>

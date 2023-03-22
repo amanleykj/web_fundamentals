@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+#wholehead {
+    background-color: #5c6667;
+    color: white;
+    margin-bottom: 5px;
+    width: 1150px;
+}
+#header {
+    width: 1100px;
+}
+#tophead_left {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 10px;
+}
+    #tophead_left img {
+        height: 50px;
+    }
+#tophead_right {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -120px;
+    margin-right: 0px;
+    gap: 30px;
+    padding: 10px;
+    align-items: center;
+}
+    #tophead_right button {
+        background-color: white;
+        color: #9900FF;
+        height: 50px;
+        width: 100px;
+        box-shadow: 3px 3px black;
+        font: 500;
+    }
+    #tophead_right h2 {
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+        color: black;
+    }
+    #tophead_right button {
+        cursor: pointer;
+    }
+#middle_head {
+    display: flex;
+    gap: 160px;
+    margin-left: 10px;
+}
+    #main {
+    width: 1200px;
+}
+#bottomhead {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+    #bottomhead img {
+        height: 25px;
+    }
+    #bottomhead button {
+        background-color: #9900FF;
+        color: white;
+        box-shadow: 2px 2px black;
+        width: 350px;
+        height: 35px;
+        cursor: pointer;
+    }
+.under {
+    display: flex;
+    align-items: center;
+}
+.under select {
+        width: 150px;
+    }
+.animal_block {
+    display: flex;
+    background-color: #EEEEEE;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+    .animal_block img {
+        height: 180px;
+    }
+    .animal_block:nth-of-type(even) {
+        background-color: #DDDDDD;
+    }
+    .animal_block button {
+        background-color: #17CFD1;
+        color: white;
+        box-shadow: 2px 2px black;
+    }
+.name_div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px 25px 0px 25px;
+}
+    .name_div p {
+        width: 450px;
+    }
+.like_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    align-items: center;
+}
+    .like_div button {
+        width: 300px;
+        height: 35px;
+        cursor: pointer;
+        font-weight: 800;
+    }

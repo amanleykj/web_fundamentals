@@ -1,0 +1,81 @@
+.header {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 150px;
+    width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+}
+    .header form, input {
+        background-color: white;
+        border: 1px solid black;
+        width: 500px;
+    }
+    .header button {
+        background-color: rgb(36, 36, 253);
+        color: white;
+        box-shadow: 2px 2px black;
+    }
+.whole_container {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left p {
+    width: 300px;
+    margin: 0px;
+    align-items: center;
+}
+.definition {
+    display: flex;
+    align-items: center;
+}
+.definition h2 {
+    font-style: italic;
+}
+.definition p span {
+    font-style: italic;
+}
+.container1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+.container2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.define_box {
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex: 2;
+    padding: 15px;
+    margin: 10px 10px 10px 0px;
+}
+    .define_box button {
+        background-color: rgb(252, 160, 11);
+        box-shadow: 4px 4px black;
+    }
+.add_definition {
+    background-color: white;
+    display: flex;
+    flex: 3;
+    padding: 15px;
+    margin: 10px 0px 10px 10px;
+    border: 2px solid black;
+}
+.new_definition button {
+    background-color: greenyellow;
+    box-shadow: 4px 4px black;
+}

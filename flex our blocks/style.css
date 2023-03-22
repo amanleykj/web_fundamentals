@@ -1,0 +1,47 @@
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;
+}
+.top-nav {
+    height: 150px;
+    background-color: green;
+    margin-bottom: 15px;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+}
+.main {
+    height: 400px;
+    width: 725px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.sub-content {
+    height: 160px;
+    width: 160px;
+    background-color: yellow;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    margin-left: 25px;
+}
+#advertisement {
+    height: 120px;
+    width: 650px;
+    background-color: purple;
+    margin: 10px;
+    margin-left: 25px;
+}
+.row {
+    /* TODO - what should go here? *
+    I'm not quite sure what would go here. I seem to have accomplished the task, but 
+    wonder if there was a more efficient option./
+}

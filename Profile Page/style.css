@@ -1,0 +1,105 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.row {
+    display: flex;
+}
+.col_one {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+.col_two {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+#headerDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    border: 10px solid rgb(32, 32, 125);
+    background-color: rgb(32, 32, 125);
+    padding: 10px;
+}
+#header_left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 175px;
+}
+    #headerDiv a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+    #headerDiv button {
+        color: white;
+        background-color: teal;
+        border: 2px solid whitesmoke;
+        box-shadow: 1px 1px whitesmoke;
+        margin-right: 225px;
+}
+#mainDiv {
+    margin-top: 50px;
+    margin-left: 200px;
+    height: 400px;
+    width: 400px;
+    border: 10px solid rgb(29, 71, 150);
+    border-top: 75px solid rgb(29, 71, 150);
+    padding: 10px;
+}
+#userIcon {
+    height: 120px;
+    margin-top: -65px;
+    border-radius: 50%;
+}
+#mapIcon {
+    height: 25px;
+}
+#gearIcon {
+    height: 25px;
+}
+#subMainDiv {
+    margin-top: 50px;
+    margin-left: 200px;
+    height: 150px;
+    width: 400px;
+    border: 10px solid rgb(29, 71, 150);
+    border-top: 75px solid rgb(29, 71, 150);
+    padding: 10px;
+    color: black;
+}
+    #subMainDiv h2 {
+        margin-top: -60px;
+        color: white;
+    }
+#rightDivFirst {
+    border: 10px solid rgb(29, 71, 150);
+    border-top: 75px solid rgb(29, 71, 150);
+    padding: 10px;
+}
+    #rightDivFirst p img {
+    height: 50px;
+    border-radius: 50%;
+}
+    #rightDivFirst h2 {
+    margin-top: -60px;
+    color: white;
+}
+#rightDivSecond {
+    border: 10px solid rgb(29, 71, 150);
+    border-top: 75px solid rgb(29, 71, 150);
+    padding: 10px;
+}
+    #rightDivSecond p img {
+    height: 50px;
+    border-radius: 50%;
+}
+    #rightDivSecond h2 {
+        margin-top: -60px;
+        color: white;
+    }

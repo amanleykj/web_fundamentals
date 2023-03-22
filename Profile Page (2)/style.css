@@ -1,0 +1,109 @@
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 5px;
+}
+.top {
+    margin: 0 auto;
+    background-color: rgb(70, 66, 66);
+}
+.nav {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(70, 66, 66);
+    color: whitesmoke;
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+    padding: 1px 1px;
+    font-family: 'Roboto Slab', serif;
+}
+    .nav a {
+    text-decoration: none;
+    color: white;
+}
+.nav-title {
+    display: flex;
+    background-color: rgb(70, 66, 66);
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    padding: 20px 10px 20px 10px;
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(21, 156, 156);
+    box-shadow: 3px 3px black;
+    padding: 8px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    background-color: white;
+    display: flex;
+}
+.col-1 {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    margin: 15px;
+    background-color: white;
+    border: 5px solid gray;
+    border-top: 75px solid rgb(43, 43, 43);
+    padding: 5px;
+}
+.col-1 h2 {
+    margin-top: -60px;
+    color: white;
+}
+.col-1 h2 span {
+    background-color: gray;
+    border-radius: 25%;
+    font-size: large;
+}
+.col-2 {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin: 15px;
+    background-color: white;
+    border: 5px solid gray;
+    border-top: 75px solid rgb(43, 43, 43);
+    padding: 5px;
+}
+.col-2 h2 {
+    margin-top: -60px;
+    color: white;
+}
+.col-2 h2 span {
+    background-color: gray;
+    border-radius: 25%;
+    font-size: large;
+}
+.friendImage {
+    width: 75px;
+    border-radius: 50%;
+}
+#janePicture {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+#mapMark {
+    width: 15px;
+}
+#gearIcon {
+    width: 15px;
+}
+#accept, #decline {
+    width: 25px;
+}

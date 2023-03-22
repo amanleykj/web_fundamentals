@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500&family=Roboto+Slab:wght@400;500&display=swap" \
+    rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+    <script src="script3.js" defer></script>
+    <title>Pet Shelter</title>
+</head>
+<body>
+    <div id="wholehead">
+        <div id="header">    
+            <div id="tophead_left">
+                <img src="assets/heart-light.png" alt="heart logo">
+                <h1>Pet Shelter</h1>
+            </div>
+            <div id="tophead_right">   
+                <h2>Find a Pet</h2>
+                <h2>About</h2>
+                <button id="donate_button" onclick="this.remove()">Donate</button>
+            </div>
+            <div id="middle_head">
+                <label>I'm looking for a ...</label>
+                <label>in or near ...</label>
+            </div>
+            <div id="bottomhead">
+                <span class="under">
+                    <img src="assets/paw-light.png" alt="paw icon">
+                    <select id="animal_select" onchange="giveAlert(this)">
+                        <option value="You are looking for any pet.">Any Pet</option>
+                        <option value="You are looking for a cat.">Cat</option>
+                        <option value="You are looking for a dog.">Dog</option>
+                    </select>
+                </span>
+                <span class="under">
+                    <img src="assets/pin-light.png" alt="map pin logo">
+                    <form>
+                        <input type="text" placeholder="City or Zip Code">
+                    </form>
+                </span>
+                <button>Find your new best friend!</button>
+            </div>
+        </div>    
+    </div>
+    <div id="main">
+        <div class="animal_block">
+            <img src="assets/pepper.jpg" alt="Pepper the cat">
+            <div class="name_div">
+            <h2>Pepper</h2>
+            <p>Pepper is a slightly shy grey tabby, but she really loves showing her human affection.</p>
+            </div>
+            <div class="like_div">
+            <p><span id="pepper_likes">3</span> petting(s)</p>
+            <button onclick="likePepper()">Pet Pepper</button>
+            </div>
+        </div>
+        <div class="animal_block">
+            <img src="assets/bruce.jpg" alt="Bruce the dog">
+            <div class="name_div">
+            <h2>Bruce</h2>
+            <p>Bruce is a loyal companion. He loves long walks and cold weather.</p>
+            </div>
+            <div class="like_div">
+            <p><span id="bruce_likes">5</span> petting(s)</p>
+            <button onclick="likeBruce()">Pet Bruce</button>
+            </div>
+        </div>
+        <div class="animal_block">
+            <img src="assets/oscar.jpg" alt="Oscar the dog">
+            <div class="name_div">
+            <h2>Oscar</h2>
+            <p>Oscar is bright, energetic, and friendly. He is looking for a good home.</p>
+            </div>
+            <div class="like_div">
+            <p><span id="oscar_likes">8</span> petting(s)</p>
+            <button onclick="likeOscar()">Pet Oscar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

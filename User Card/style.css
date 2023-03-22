@@ -1,0 +1,15 @@
+#topSection {
+    border: 5px solid rgb(29, 29, 124);
+    border-top: 100px solid rgb(29, 29, 124);
+    padding: 10px;
+}
+#userIcon {
+    height: 150px;
+    margin-top: -80px;
+}
+.otherIcon {
+    height: 25px;
+}
+a {
+    text-decoration: none;
+}

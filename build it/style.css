@@ -1,0 +1,13 @@
+img {
+    width: 150px; height: 150px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    outline: 1px red;
+}
+
